@@ -1,0 +1,86 @@
+
+body{
+  width: 150vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #EEEEEE;
+}
+
+
+.contact-card{
+	width: 14em;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+  line-height: 1.5em;
+  text-align: center;
+  background-color: #FFFFFF;
+  border-radius: 1em;
+  box-shadow: 0 0 2em rgba(0,0,0,0.125);
+  overflow: hidden;
+
+}
+:hover{
+  transform: translateY(-0.5em);
+}
+
+   
+
+    .contact-card__header-image{
+      width: 100%;
+    	height: 6em;
+    	padding-top: 2em;
+      background-image:url("/src/jjj.jpg");     
+      background-size: cover;
+    	background-color: #FAFAFA;
+    }
+    
+
+    .contact-card__avatar{
+      width: 6em;
+    	height: 6em;
+      margin: auto;
+                 background-size:400%;
+
+      background-image: url("/src/jjj.jpg");
+    	border-radius: 100%;
+    }
+
+    .contact-card__name{
+      margin-top: 3em;
+      margin-bottom: .5em;
+      font-size: 1.5rem;
+      text-align: center;
+    }
+
+    .contact-card__link{
+      display: block;
+      text-decoration: none;
+      text-align: center;
+      font-size: 0.8rem;
+    }
+
+
+  
+      .contact-card__footer{
+     
+    	margin-top: .5em;
+    	padding: 1em 0;
+      background-size: cover;
+      background-color: #FAFAFA;
+    }
+
+
+ 
+      
+  
+
+      
+
+ 
+
+    
+
+  
+
